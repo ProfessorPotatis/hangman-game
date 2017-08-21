@@ -1,0 +1,89 @@
+h1 {
+	text-align: center;
+	color: hotpink;
+}
+
+h3 {
+	color: hotpink;
+}
+
+#content {
+	border: 2px solid hotpink;
+	background-color: #efe;
+	padding: 2em;
+	margin: 0 auto;
+	height: 500px;
+	width: 800px;
+	border-radius: 40px;
+}
+
+#left {
+	width: 500px;
+}
+
+#right {
+	width:300px;
+	float: right;
+}
+
+#message {
+	font-size: 2em;
+	float:left;
+}
+
+#hangman_form {
+	margin-top: 125px;
+}
+
+#hangman_form input[disabled], #hangman_form input[disabled]:hover {
+    background-color: #000;
+    border: 2px inset #fff;
+	color: #fff;
+    cursor: auto;
+}
+
+#hangman_form .char {
+	background-color: #fff;
+	border: 2px outset #000;
+	border-radius: 2em;
+	color: #333;
+	height: 2em;
+	margin: 2px;
+	width: 2em;
+	font-size: 1em;
+}
+
+#hangman_form .char:hover {
+	background-color: #000;
+	border: 2px inset #fff;
+	color: #fff;
+}
+
+#theWord {
+	margin-top: 50px;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+#guessed {
+	margin-left: 5px;
+	margin-bottom: 75px;
+	font-style: italic;
+}
+
+.hidden {
+	background-color: #fff;
+	border: 2px outset #000;
+	border-radius: 2em;
+	color: #333;
+	height: 2em;
+	margin: 2px;
+	font-size: 1em;
+	visibility: hidden;
+}
+
+.hidden:hover {
+	background-color: #000;
+	border: 2px inset #fff;
+	color: #fff;
+}
